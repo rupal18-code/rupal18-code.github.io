@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f6f2e9" />
-    <meta name="description" content="Portfolio of Rupal Srivastava, a second-year B.Tech CSE (AI/ML) student focused on web development, open source, and hackathons." />
+    <meta name="description" content="Portfolio of Rupal Srivastava, a second-year B.Tech CSE student focused on web development, open source, and hackathons." />
     <title>Rupal Srivastava — Portfolio</title>
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PGNpcmNsZSBjeD0iMjQiIGN5PSIyNCIgcj0iMjMiIGZpbGw9IiNlZmU2ZDYiLz48Y2lyY2xlIGN4PSIyNCIgY3k9IjI0IiByPSIxNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYTc1OTQyIiBzdHJva2Utd2lkdGg9IjEuNCIvPjxjaXJjbGUgY3g9IjI0IiBjeT0iMjQiIHI9IjIuMiIgZmlsbD0iI2E3NTk0MiIvPjxwYXRoIGQ9Ik0yNCA2djEyTTI0IDMwdjEyTTYgMjRoMTJNMzAgMjRoMTIiIHN0cm9rZT0iI2E3NTk0MiIgc3Ryb2tlLXdpZHRoPSIxLjQiLz48L3N2Zz4=" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -355,6 +355,9 @@ h1, h2, h3, p { margin-top: 0; }
 .record-value { margin-top: 4px !important; font: 500 28px/1.2 var(--serif); letter-spacing: -.02em; }
 .record-note { color: var(--ink-soft); font-size: 12px; }
 @media (max-width: 620px) { .academic-record { grid-template-columns: 1fr; } }
+.project-links { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 14px 0 0; font-size: 13px; font-weight: 600; }
+.project-links a { color: #a75942; text-decoration: underline; text-underline-offset: 4px; }
+.project-links a:hover { color: #3a2a1f; }
 </style>
   </head>
   <body>
@@ -388,9 +391,9 @@ h1, h2, h3, p { margin-top: 0; }
     <main id="main">
       <section class="hero page-wrap" id="home" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> B.Tech <span class="eyebrow-divider" aria-hidden="true">/</span> Computer Science &amp; Engineering (AI/ML)</p>
+          <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> B.Tech <span class="eyebrow-divider" aria-hidden="true">/</span> Computer Science &amp; Engineering</p>
           <h1 id="hero-title">Hello, I’m<br /><span>Rupal Srivastava</span><span class="title-period" aria-hidden="true">.</span></h1>
-          <p class="hero-role">Second-year B.Tech CSE (AI/ML) student and web developer.</p>
+          <p class="hero-role">Second-year B.Tech CSE student and web developer.</p>
           <p class="hero-intro">I make full-stack web projects, contribute to open source as a GSSoC 2026 Contributor and Ambassador, and serve as a Global Ambassador at WomenTech Network. I also take part in hackathons, including ISRO’s BAH 2026, where I led my team. Right now I’m sharpening my Java, DSA, and backend skills and looking for a software internship.</p>
           <div class="hero-actions">
             <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
@@ -417,12 +420,12 @@ h1, h2, h3, p { margin-top: 0; }
               <h2 id="about-title">A little about me<span class="title-period" aria-hidden="true">.</span></h2>
               <span class="hand-drawn-star" aria-hidden="true">✳</span>
             </div>
-            <p class="section-lede">I’m a second-year B.Tech CSE (AI/ML) student at Galgotias College of Engineering and Technology. I focus on web development and learn by building, from full-stack apps to hackathon projects.</p>
+            <p class="section-lede">I’m a second-year B.Tech CSE student at Galgotias College of Engineering and Technology. I focus on web development and learn by building, from full-stack apps to hackathon projects.</p>
             <div class="about-prompts">
               <article class="prompt-card">
                 <span class="prompt-number">A</span>
                 <h3>Background</h3>
-                <p>Second-year B.Tech CSE (AI/ML) student at GCET. I build full-stack projects, contribute to open source as a GSSoC 2026 Contributor and Ambassador, and serve as a Global Ambassador at WomenTech Network.</p>
+                <p>Second-year B.Tech CSE student at GCET. I build full-stack projects, contribute to open source as a GSSoC 2026 Contributor and Ambassador, and serve as a Global Ambassador at WomenTech Network.</p>
               </article>
               <article class="prompt-card">
                 <span class="prompt-number">B</span>
@@ -452,7 +455,7 @@ h1, h2, h3, p { margin-top: 0; }
                 <div class="degree-icon" aria-hidden="true"><span></span><span></span><span></span></div>
                 <div>
                   <p class="card-label">UNDERGRADUATE DEGREE</p>
-                  <h3>B.Tech in Computer Science and Engineering (AI/ML)</h3>
+                  <h3>B.Tech in Computer Science and Engineering</h3>
                   <p class="school-name">Galgotias College of Engineering and Technology</p>
                 </div>
               </div>
@@ -462,7 +465,7 @@ h1, h2, h3, p { margin-top: 0; }
               <dl class="academic-record">
                 <div><dt>CLASS 10, 2022</dt><dd class="record-value">96%</dd><dd class="record-note">Little Flower School</dd></div>
                 <div><dt>CLASS 12, 2024</dt><dd class="record-value">90.8%</dd><dd class="record-note">Science stream, Little Flower School</dd></div>
-                <div><dt>SEMESTER 1</dt><dd class="record-value">8.45 SGPA</dd><dd class="record-note">B.Tech CSE (AI/ML)</dd></div>
+                <div><dt>SEMESTER 1</dt><dd class="record-value">8.45 SGPA</dd><dd class="record-note">B.Tech CSE</dd></div>
               </dl>
             </article>
           </div>
@@ -483,6 +486,13 @@ h1, h2, h3, p { margin-top: 0; }
                 <h3>P.R.I.T.H.V.I.</h3>
                 <p class="project-description">A physics-backed urban heat mitigation platform. I led Team CosmoSync and was the sole primary developer. It estimates land surface temperature with an energy balance engine, maps it with a spatial pipeline, and includes an AI copilot.</p>
                 <dl class="project-tools"><dt>TOOLS &amp; TECHNOLOGIES</dt><dd>Next.js, TypeScript, FastAPI, GeoPandas, Rasterio, PostGIS</dd></dl>
+              </article>
+              <article class="project-card">
+                <p class="card-label">BUILT AND DEPLOYED</p>
+                <h3>Earth Events Tracker</h3>
+                <p class="project-description">A live interactive map of natural events from NASA’s EONET feed, such as wildfires, storms, and volcanoes, with category filters so you can explore what is happening around the world.</p>
+                <dl class="project-tools"><dt>TOOLS &amp; TECHNOLOGIES</dt><dd>Next.js, Tailwind CSS, Leaflet, NASA EONET API, Vercel</dd></dl>
+                <p class="project-links"><a href="https://earth-events-tracker.vercel.app" rel="noopener">Live demo ↗</a><a href="https://github.com/rupal18-code/earth-events-tracker" rel="noopener">Source code ↗</a></p>
               </article>
               <article class="project-card">
                 <p class="card-label">BUILT</p>
